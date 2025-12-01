@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/*.csv
+data/*.txt
+*.h5
+*.pkl
+*.pth
+*.pt
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+lightning_logs/
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment
+.env
+venv/
+env/
+ENV/
+
+# Documentation build artifacts
+*.md.backup
+*.md~
+
+# Supporting/reference notebooks (not for course delivery)
+Copy_of_*.ipynb
+01_intro_to_dl.ipynb
+02_graph_nns.ipynb
+03_gnn_simple_example.ipynb
+Dive_into_*.ipynb
+*BACKUP*.ipynb
+*_MODERN_BACKUP.ipynb
+
+# Documentation files (internal only)
+INTEGRATION_*.md
+IMPLEMENTATION_*.md
+EXECUTIVE_SUMMARY.md
+MODERNIZATION_*.md
+NEXT_STEPS.md
+README_FOR_PROFESSOR.md
+TESTING_REPORT.md
+TEACHING_NOTES.md
+NOTEBOOK_SUMMARY.txt
+IMPLEMENTATION_COMPLETE.md

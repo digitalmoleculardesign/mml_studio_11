@@ -1,9 +1,41 @@
 # MML Studio 11: Graph Neural Networks for Molecular Property Prediction
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitalmoleculardesign/mml_studio_11/blob/main/GNN_Molecular_Property_Prediction_MODERN.ipynb)
-
 ## Course: 06-731 Molecular Machine Learning
 **Carnegie Mellon University - Gomes Group**
+
+---
+
+## 📓 Available Notebooks
+
+### Primary Notebook (Recommended for Students)
+**GNN_Molecular_Property_Prediction_MODERN.ipynb** - Modern implementation with PyTorch 2.x
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitalmoleculardesign/mml_studio_11/blob/main/GNN_Molecular_Property_Prediction_MODERN.ipynb)
+
+**What's Inside:**
+- Complete 10-section tutorial from basics to advanced topics
+- Modern tech stack (PyTorch 2.x, PyG 2.6+, Lightning 2.1)
+- Comprehensive implementation with detailed explanations
+- Bayesian optimization and uncertainty quantification
+- Production-ready code patterns
+- **Expected Runtime**: 5-10 minutes on T4 GPU
+
+### Reference Notebook (Alternative Implementation)
+**Graph_Networks_on_Molecular_Graphs_MML_2025_studio_11_1.ipynb** - Modernized from 2019 TensorFlow version
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/digitalmoleculardesign/mml_studio_11/blob/main/Graph_Networks_on_Molecular_Graphs_MML_2025_studio_11_1.ipynb)
+
+**What's Inside:**
+- Original pedagogical structure preserved
+- Updated to use PyTorch instead of TensorFlow
+- Alternative implementation patterns
+- Historical context and evolution of GNN architectures
+- **Expected Runtime**: 10-15 minutes on T4 GPU
+
+**Which notebook should I use?**
+- **Students**: Start with `GNN_Molecular_Property_Prediction_MODERN.ipynb` (primary notebook)
+- **Instructors**: Both notebooks available for different teaching approaches
+- **Researchers**: Reference notebook provides alternative implementation patterns
 
 ---
 
@@ -33,20 +65,31 @@ Graph Neural Networks have become the state-of-the-art architecture for molecula
 - **Graph Pooling**: Converting node features to graph-level predictions
 - **ESOL Dataset**: Aqueous solubility prediction benchmark
 
-## Contents
+## Repository Contents
 
-- `GNN_Molecular_Property_Prediction_MODERN.ipynb` - Main tutorial notebook (2024-2025 modern stack)
-- `Graph_Networks_on_Molecular_Graphs_MML_2025_studio_11_1.ipynb` - Reference implementation (legacy)
-- `CLAUDE.md` - Project conventions and technical guidance
-- `requirements.txt` - Python dependencies
+| File | Description | Use Case |
+|------|-------------|----------|
+| `GNN_Molecular_Property_Prediction_MODERN.ipynb` | Primary teaching notebook | **Students start here** |
+| `Graph_Networks_on_Molecular_Graphs_MML_2025_studio_11_1.ipynb` | Reference implementation | Alternative approach |
+| `CLAUDE.md` | Technical conventions | Developer reference |
+| `requirements.txt` | Python dependencies | Local installation |
+| `README.md` | This file | Overview |
 
 ## Quick Start
 
-### Option 1: Google Colab (Recommended)
+### Option 1: Google Colab (Recommended for Students)
 
-Click the "Open in Colab" badge above. All dependencies install automatically.
+**Primary Notebook:**
+1. Click the first "Open in Colab" badge above
+2. Enable GPU: Runtime → Change runtime type → T4 GPU
+3. Run all cells (Runtime → Run all)
+4. Expected time: ~5-10 minutes
 
-**Expected Runtime**: 5-10 minutes on T4 GPU
+**Reference Notebook:**
+1. Click the second "Open in Colab" badge above
+2. Enable GPU: Runtime → Change runtime type → T4 GPU
+3. Run all cells (Runtime → Run all)
+4. Expected time: ~10-15 minutes
 
 ### Option 2: Local Installation
 
